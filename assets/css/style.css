@@ -4,6 +4,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--blue {
+    background-color: #235384;
+    color: white;
+}
+
+.container-wrapper--gray {
+    background-color: #6c757d;
+    color: white;
+}
+
 .heroimage-container {
     height: 60vh;
 
@@ -32,6 +46,19 @@ body {
 }
 
 
+/*------ Page Headers ------*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
 /*------Block Dividers-----*/
 
 .block-divider {
@@ -40,6 +67,27 @@ body {
     border: 0;
     background-color: #efefef;
 }
+
+.block-divider--blue {
+    background-color: #235384;
+}
+
+
+.block-divider--short {
+    width: 35px;
+    margin-bottom: 40px;
+}
+
+
+/*--------- Content Containers ---------*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+
 
 
 /*--------- NavBar ---------*/
@@ -99,4 +147,25 @@ body {
     background-color: #3c88da;
     border-color: #3c88da;
     color: white;
+}
+
+
+/*--------- Journey -------------- */
+
+.history-items {
+    text-align: center;
+}
+
+
+/*--------- Certs -------------- */
+
+.certs {
+    text-align: center;
+}
+
+
+/*--------- Footer -------------- */
+
+.social-links {
+    background-color: white;
 }
