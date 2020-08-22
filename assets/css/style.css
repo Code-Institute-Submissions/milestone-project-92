@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container-wrapper {
@@ -42,6 +42,21 @@ body {
 }
 
 .certs-container {
+
+}
+
+.signup-container {
+    height: 60vh;
+
+    background: url('../images/startnow.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -92,9 +107,6 @@ body {
 
 /*--------- NavBar ---------*/
 
-.navbar-nav {
-    padding-left: 650px;
-}
 
 .navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
@@ -129,9 +141,8 @@ body {
 /*--------- Buttons -------------- */
 
 .btn--cta {
-    font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 140px;
 }
 
 .btn--blue {
@@ -155,6 +166,8 @@ body {
 .history-items {
     padding-left: 65px;
 }
+
+
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -200,9 +213,11 @@ body {
 }
 
 
+
+
 /*--------- Footer -------------- */
 
-.cv-pdf i {
+.jgagnerforms i {
     font-size: 18px;
     color: white;
     text-align: center;
@@ -213,7 +228,7 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.jgagnerforms i:hover {
     color: #235384;
 }
 
@@ -234,3 +249,26 @@ body {
 .social-links li a i:hover {
     background: #235384;
 }
+
+
+/*--------- Signup Form -------------- */
+
+.signup-heading {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #235384;
+}
+
