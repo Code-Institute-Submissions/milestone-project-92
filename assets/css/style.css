@@ -60,6 +60,20 @@ body {
 
 }
 
+.testimonials-container {
+    height: 60vh;
+
+    background: url('../images/hero1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*------ Page Headers ------*/
 
@@ -270,5 +284,29 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: white;
     background-color: #235384;
+}
+
+
+/*--------- Testimonials -------------- */
+
+.testimonials-heading {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.testimonials-lead {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.blockquote {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.testimonial-box {
+    padding-bottom: 50px;
+
 }
 
