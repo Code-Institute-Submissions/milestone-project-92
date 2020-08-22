@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container-wrapper {
@@ -153,7 +153,43 @@ body {
 /*--------- Journey -------------- */
 
 .history-items {
-    text-align: center;
+    padding-left: 65px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
 }
 
 
@@ -166,6 +202,35 @@ body {
 
 /*--------- Footer -------------- */
 
-.social-links {
-    background-color: white;
+.cv-pdf i {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #235384;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #235384;
 }
