@@ -74,6 +74,23 @@ body {
     justify-content: center;
 }
 
+.services-container {
+    height: 60vh;
+
+    background: url('../images/hero3.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 
 /*------ Page Headers ------*/
 
@@ -310,3 +327,25 @@ button[type="submit"] {
 
 }
 
+
+/*--------- Services -------------- */
+
+.service {
+    padding-top: 25px;
+}
+
+.services-heading {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.services-lead {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.price-summary {
+    color: #235384;
+    font-style: italic;
+}
