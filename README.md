@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/images/logo2.png" width="300" height="100" class="d-inline-block align-top" alt="" loading="lazy">
 
 Welcome katyacano,
 
