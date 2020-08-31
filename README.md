@@ -2,7 +2,10 @@
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e298f4b1616a0e4c944d6559ef4a4d0c00c5e602
 # JGagner Personal Trainer Website
 
 **View live project [here](https:www.google.com)
@@ -32,7 +35,11 @@ This is the main website for Joseph Gagner, personal trainer in Rolling Hills, C
   - Header images are placed on every page. These images are meant to tie back to the theme of each page- Services, Testimonials, Start Now!
 
 ### Wireframe
+<<<<<<< HEAD
 - View complete wireframe [here](assets/forms/jgpt.wireframe.pdf)
+=======
+- View complete wireframe [here](https:www.google.com)
+>>>>>>> e298f4b1616a0e4c944d6559ef4a4d0c00c5e602
 
 
 
