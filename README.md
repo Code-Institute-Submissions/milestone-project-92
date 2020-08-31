@@ -32,7 +32,7 @@ This is the main website for Joseph Gagner, personal trainer in Rolling Hills, C
   - Header images are placed on every page. These images are meant to tie back to the theme of each page- Services, Testimonials, Start Now!
 
 ### Wireframe
-- View complete wireframe [here](https:www.google.com)
+- View complete wireframe [here](assets/forms/jgpt.wireframe.pdf)
 
 
 

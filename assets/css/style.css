@@ -4,10 +4,6 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.container-wrapper {
-
-}
-
 .container-wrapper--blue {
     background-color: #235384;
     color: white;
@@ -30,19 +26,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.who-is-container {
-
-}
-
-.journey-container {
-
-}
-
-.certs-container {
-
 }
 
 .signup-container {
@@ -57,7 +40,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .testimonials-container {
@@ -89,9 +71,6 @@ body {
 }
 
 
-
-
-
 /*------ Page Headers ------*/
 
 .page-header {
@@ -104,6 +83,7 @@ body {
     margin-top: 0;
     font-weight: bold;
 }
+
 
 /*------Block Dividers-----*/
 
@@ -133,9 +113,6 @@ body {
 }
 
 
-
-
-
 /*--------- NavBar ---------*/
 
 
@@ -148,8 +125,8 @@ body {
 
 .navbar .navbar-nav a {
     font-weight: bold;
-    
 }
+
 
 /*-------Jumbotron--------*/
 
@@ -161,13 +138,13 @@ body {
     color: #efefef;
     font-weight: bold;
     margin-bottom: 30px;
-
 }
 
 .jumbotron .lead {
     color: #efefef;
     margin: 25px 0;
 }
+
 
 /*--------- Buttons -------------- */
 
@@ -193,11 +170,19 @@ body {
 
 
 /*--------- Journey -------------- */
+.bio {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+
+/*--------- Journey -------------- */
 
 .history-items {
     padding-left: 65px;
 }
-
 
 
 .timeline-item {
@@ -244,9 +229,12 @@ body {
 }
 
 
-
-
 /*--------- Footer -------------- */
+
+#footer-details {
+    padding-top: 30px;
+    text-align: center;
+}
 
 .jgagnerforms i {
     font-size: 18px;
@@ -315,6 +303,7 @@ button[type="submit"] {
 .testimonials-lead {
     font-weight: bold;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 
 .blockquote {
@@ -324,7 +313,6 @@ button[type="submit"] {
 
 .testimonial-box {
     padding-bottom: 50px;
-
 }
 
 
@@ -343,6 +331,7 @@ button[type="submit"] {
 .services-lead {
     font-weight: bold;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 
 .price-summary {
