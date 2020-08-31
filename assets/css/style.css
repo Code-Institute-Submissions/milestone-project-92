@@ -17,7 +17,7 @@ body {
 .heroimage-container {
     height: 60vh;
 
-    background: url('../images/hero2.jpg') no-repeat center center;
+    background: url('../images/rsz_hero2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,7 +31,7 @@ body {
 .signup-container {
     height: 60vh;
 
-    background: url('../images/startnow.jpg') no-repeat center center;
+    background: url('../images/rsz_startnow.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,7 +45,7 @@ body {
 .testimonials-container {
     height: 60vh;
 
-    background: url('../images/hero1.jpg') no-repeat center center;
+    background: url('../images/rsz_hero1.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,7 +59,7 @@ body {
 .services-container {
     height: 60vh;
 
-    background: url('../images/hero3.jpg') no-repeat center center;
+    background: url('../images/rsz_hero3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -303,7 +303,6 @@ button[type="submit"] {
 .testimonials-lead {
     font-weight: bold;
     padding-bottom: 50px;
-    font-size: 30px;
 }
 
 .blockquote {
@@ -331,7 +330,6 @@ button[type="submit"] {
 .services-lead {
     font-weight: bold;
     padding-bottom: 50px;
-    font-size: 30px;
 }
 
 .price-summary {
