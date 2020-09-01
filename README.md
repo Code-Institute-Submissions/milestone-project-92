@@ -4,7 +4,7 @@
 
 # JGagner Personal Trainer Website
 
-**View live project [here](https:www.google.com)
+**View live project [here](https://katyacano.github.io/milestone-project-1/)
 
 This is the main website for Joseph Gagner, personal trainer in Rolling Hills, California. It is designed to be responsive and accessible on a range of devices, including iPhone, iPad, Android and desktop. It is designed to be easy to navigate for potential new clients looking to hire a personal trainer that understands their concerns about exercising and nutrition. 
 
