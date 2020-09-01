@@ -109,7 +109,18 @@ This is the main website for Joseph Gagner, personal trainer in Rolling Hills, C
    1. A returning visitor’s purpose for visiting Joseph Gagner’s website would be to download the California release form required to start their training. 
       - This is easily accomplished via a download icon from the footer, which is repeated on every page of the site.
       
-      
+
+## Deployment to Github Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-1**.
+2. At the top of the Repository, find the "Settings" button and select it. 
+3. Scroll down the Settings page and find "GitHub Pages" section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page should automatically refresh but if it doesn't, refresh the page.
+6. Scroll back down through the page to the same section and find a published site link.
+
+
 ## Credits
 
 ### Code

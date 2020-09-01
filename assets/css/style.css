@@ -16,13 +16,11 @@ body {
 
 .heroimage-container {
     height: 60vh;
-
     background: url('../images/rsz_hero2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,13 +28,11 @@ body {
 
 .signup-container {
     height: 60vh;
-
     background: url('../images/rsz_startnow.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,13 +40,11 @@ body {
 
 .testimonials-container {
     height: 60vh;
-
     background: url('../images/rsz_hero1.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,21 +52,17 @@ body {
 
 .services-container {
     height: 60vh;
-
     background: url('../images/rsz_hero3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 /*------ Page Headers ------*/
-
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -86,7 +76,6 @@ body {
 
 
 /*------Block Dividers-----*/
-
 .block-divider {
     width: 75px;
     height: 3px;
@@ -98,24 +87,18 @@ body {
     background-color: #235384;
 }
 
-
 .block-divider--short {
     width: 35px;
     margin-bottom: 40px;
 }
 
-
 /*--------- Content Containers ---------*/
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-
 /*--------- NavBar ---------*/
-
-
 .navbar-light .navbar-brand {
     color: rgba(0,0,0,.9);
     font-weight: bolder;
@@ -127,9 +110,7 @@ body {
     font-weight: bold;
 }
 
-
 /*-------Jumbotron--------*/
-
 .jumbotron {
     background-color: transparent;
 }
@@ -147,7 +128,6 @@ body {
 
 
 /*--------- Buttons -------------- */
-
 .btn--cta {
     border-radius: 23px;
     width: 140px;
@@ -168,7 +148,6 @@ body {
     color: white;
 }
 
-
 /*--------- Journey -------------- */
 .bio {
     font-size: 20px;
@@ -177,13 +156,10 @@ body {
     padding-top: 30px;
 }
 
-
 /*--------- Journey -------------- */
-
 .history-items {
     padding-left: 65px;
 }
-
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -196,7 +172,6 @@ body {
     margin: 0;
 }
 
-
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
@@ -207,7 +182,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 
 .timeline-item:after {
     width: 12px;
@@ -221,16 +195,12 @@ body {
     background: #fafafa;
 }
 
-
 /*--------- Certs -------------- */
-
 .certs {
     text-align: center;
 }
 
-
 /*--------- Footer -------------- */
-
 #footer-details {
     padding-top: 30px;
     text-align: center;
@@ -269,9 +239,7 @@ body {
     background: #235384;
 }
 
-
 /*--------- Signup Form -------------- */
-
 .signup-heading {
     font-weight: bold;
     margin-top: 25px;
@@ -291,9 +259,7 @@ button[type="submit"] {
     background-color: #235384;
 }
 
-
 /*--------- Testimonials -------------- */
-
 .testimonials-heading {
     font-weight: bold;
     margin-top: 25px;
@@ -314,9 +280,7 @@ button[type="submit"] {
     padding-bottom: 50px;
 }
 
-
 /*--------- Services -------------- */
-
 .service {
     padding-top: 25px;
 }
